@@ -1,0 +1,14 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4d9c0d34-f0a1-4795-9641-154573781b7f/resourceGroups/app-grp/providers/Microsoft.Web/sites/codeandcloud",
+    "appService.deploySubpath": "bin\\Release\\net8.0\\publish",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.formatOnSave": true,
+}
