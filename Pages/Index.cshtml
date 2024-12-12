@@ -6,14 +6,14 @@
 
 <div class="container-sm">
 
-      <h1>This is a list of Courses - Version 2</h1>    
+      <h1>chaks.in</h1>    
 
     <table class="table table-striped table-bordered"> 
         <thead class="table-dark">
           <tr>
-            <th class="th-sm" scope="col">Course ID</th>
-            <th class="th-sm" scope="col">Course Name</th>
-            <th class="th-sm" scope="col">Rating</th>            
+            <th class="th-sm" scope="col">ID</th>
+            <th class="th-sm" scope="col">Name</th>
+            <th class="th-sm" scope="col">Age</th>            
           </tr>
         </thead>
          
@@ -23,7 +23,7 @@
             <tr>
             <th scope="row">@course.CourseID</th>
             <td>@course.CourseName</td>
-            <td>@course.Rating</td>            
+            <td>@(course.Rating * 10)</td>            
           </tr>
           }
 
